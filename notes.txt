@@ -1,0 +1,3 @@
+· Revisar API y reconocer estructura
+· Cambiar los ejemplos con los correspondientes al ejercicio
+· Module vs sass (Tiempo)
