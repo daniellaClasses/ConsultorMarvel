@@ -1,13 +1,13 @@
 · [DONE] Revisar API y reconocer estructura
-· [ONGOING 1/3] Cambiar los ejemplos con los correspondientes al ejercicio
+· [ONGOING 2/3] Cambiar los ejemplos con los correspondientes al ejercicio
 · [TIME] Module vs sass (¿Tiempo?)
-·  404 ¿?
+· [TIME] 404 ¿?
 · [DONE] Petición ejemplo (...)
-· Añadir "Data provided by Marvel. © 2014 Marvel" por la atribución legal a Marvel
+· [TIME] Añadir un footer sencillo con "Data provided by Marvel. © 2014 Marvel" por la atribución legal a Marvel
 · [DONE] Endpoint ("http(s)://gateway.marvel.com/")
-· Detalle page vs title/image/description DUDA
-· Contexto (?)
+· [DUDA] Detalle page vs title/image/description 
+· [DUDA] Contexto (?)
 · [DONE] c362a0b48487e82a9f79b23bdee091f7 public key
 · [ABORT] Migrar a la versión 6 (rrd)
-· Limitar el número de carácteres en la descripción y ponerle el "Leer más"
-· Faltan los comentarios, pero los componentes son intuitivos.
+· [TIME] Limitar el número de carácteres en la descripción y ponerle el "Leer más"
+· [TIME] Faltan los comentarios, pero los componentes son intuitivos.
