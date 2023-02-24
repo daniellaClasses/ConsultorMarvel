@@ -1,46 +1,57 @@
 .headerCont {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 45%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 100px;
     padding: 25px;
+    max-height: 100px;
+
+    background-color: red;
+    opacity: 0.7;
+    font-family: 'Bebas Neue', cursive;
+
 }
 
 .title {
     text-align: left;
     margin-left: 1rem;
-    font-family: 'Eater', cursive;
-    font-size: 3.5rem;
-    background: -webkit-linear-gradient(#e00707, rgba(255, 255, 255, 0.838), #1a2fca);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    color: whitesmoke;
 }
 
 .navCont {
     display: flex;
     justify-content: end;
     gap: 40px;
-    margin: 5px;
+    margin-right: 1.5rem;
     align-items: center;
     flex-wrap: no-wrap;
+    font-size: 1.5rem;
+}
+
+.comicLink:hover,
+.characterLink:hover,
+.seriesLink:hover {
+    color: blue;
 }
 
 .comicLink {
-    background: -webkit-linear-gradient(#737373, #3f2a2a56);
+    /* background: -webkit-linear-gradient(#efefef, #755a5a56);
     background-clip: border-box;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
 }
-
+/* 
 .characterLink {
-    background: -webkit-linear-gradient(#ff0000, #333);
+    background: -webkit-linear-gradient(#ff0000, #ffffff74);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .seriesLink {
-    background: -webkit-linear-gradient(#2600ff, #333);
+    background: -webkit-linear-gradient(#010b90, #ffffffb7);
     background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
