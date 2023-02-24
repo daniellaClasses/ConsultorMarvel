@@ -1,41 +1,43 @@
-import { ComicsGrid } from "./components/ComicsGrid";
 import styles from "./App.module.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { ComicDetails } from "./pages/ComicDetails";
+import { Header } from "./components/Header";
 import { LandingPage } from "./pages/LandingPage";
+import { ComicsGrid } from "./components/ComicsGrid";
+import { ComicDetails } from "./pages/ComicDetails";
+import { CharactersGrid } from "./components/CharactersGrid";
+import { CharacterDetails } from "./pages/CharacterDetails";
 
 export function App() {
     return (
         <Router>
             <header>
-                {/* <Link to="/"> Home </Link>
-                <br />
-                <Link to="/comic"> Comic </Link> 
-                //CREAR COMPONENTE HEADER
-                */}
-                <Link to="/"> <h1 className={styles.title}> MARVEL </h1> </Link>
-
+                <Header />
             </header>
             <main>
-                {/* <ComicsGrid /> */}
-
-                {/* <Routes>
-                    {<Route path="/comics/:comicId" element={<ComicDetails />}/> }
-                    <Route path="/"> Home </Route>
-                    <Route path="/comic">
-                    <div> COMIC </div>
-                    </Route>
-                    {/<Route path="/" element={<LandingPage />} /> }
-                </Routes> */}
 
                 <Switch>
-                    <Route exact path="/comics/:comicId"> 
-                    <ComicDetails /> 
+                    <Route exact path="/comics">
+                        <ComicsGrid />
                     </Route>
-                    <Route path="/"> 
-                    <LandingPage /> 
+                    <Route exact path="/comics/:comicId">
+                        <ComicDetails />
                     </Route>
-                    {/* <Route path="/"> 404 </Route> */}
+                    <Route exact path="/characters">
+                        <CharactersGrid />
+                    </Route>
+                    <Route exact path="/characters/:characterId">
+                        <CharacterDetails />
+                    </Route>
+                    <Route exact path="/series">
+                        <ComicsGrid />
+                    </Route>
+                    <Route exact path="/series/:serieId">
+                        <ComicDetails />
+                    </Route>
+                    <Route path="/">
+                        <LandingPage />
+                    </Route>
+                    {/* <Route path="/error"> 404 </Route> */}
                 </Switch>
             </main>
         </Router>
