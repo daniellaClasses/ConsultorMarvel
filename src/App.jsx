@@ -1,11 +1,13 @@
 import styles from "./App.module.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header } from "./components/Header";
 import { LandingPage } from "./pages/LandingPage";
 import { ComicsGrid } from "./components/ComicsGrid";
 import { ComicDetails } from "./pages/ComicDetails";
 import { CharactersGrid } from "./components/CharactersGrid";
 import { CharacterDetails } from "./pages/CharacterDetails";
+import { SeriesGrid } from "./components/SeriesGrid";
+import { SerieDetails } from "./pages/SerieDetails";
 
 export function App() {
     return (
@@ -29,10 +31,10 @@ export function App() {
                         <CharacterDetails />
                     </Route>
                     <Route exact path="/series">
-                        <ComicsGrid />
+                        <SeriesGrid />
                     </Route>
                     <Route exact path="/series/:serieId">
-                        <ComicDetails />
+                        <SerieDetails />
                     </Route>
                     <Route path="/">
                         <LandingPage />

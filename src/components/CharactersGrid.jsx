@@ -4,9 +4,6 @@ import { CharacterCard } from "./CharacterCard";
 import styles from "./CharactersGrid.module.css";
 import { Spinner } from "../components/Spinner";
 
-
-
-
 export function CharactersGrid() {
 
 

@@ -1,22 +1,22 @@
 import { useEffect, useState } from "react";
 import { getInfo } from "../utils/httpsClient";
-import { ComicCard } from "./ComicCard";
-import styles from "./ComicsGrid.module.css";
+import { SerieCard } from "./SerieCard";
+import styles from "./SeriesGrid.module.css";
 import { Spinner } from "../components/Spinner";
 
-export function ComicsGrid() {
+export function SeriesGrid() {
 
-    const [comics, setComics] = useState([]);
-    const path = "/v1/public/comics";
+    const [series, setSeries] = useState([]);
+    const path = "/v1/public/series";
 
     const [isLoading, setIsLoading] = useState(true);
 
-    //Hacemos un fecth para obtener todos los comics desde la API
+    //Hacemos un fecth para obtener todos las series desde la API
     useEffect(() => {
         setIsLoading(true);
         getInfo(path)
         .then((info) => {
-            setComics(info.data.results);
+            setSeries(info.data.results);
             // console.log(info.data.results);
             setIsLoading(false);
         })
@@ -28,9 +28,9 @@ export function ComicsGrid() {
     }
 
     return (
-        <ul className={styles.comicsGrid}>
-            {comics.map((comic) => (
-                <ComicCard key={comic.id} comic={comic} />
+        <ul className={styles.seriesGrid}>
+            {series.map((serie) => (
+                <SerieCard key={serie.id} serie={serie} />
             ))}
         </ul>
     );

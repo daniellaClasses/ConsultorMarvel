@@ -1,13 +1,13 @@
 · [DONE] Revisar API y reconocer estructura
-· [ONGOING 2/3] Cambiar los ejemplos con los correspondientes al ejercicio
+· [DONE 3/3] Single Page App 
 · [TIME] Module vs sass (¿Tiempo?)
 · [TIME] 404 ¿?
 · [DONE] Petición ejemplo (...)
 · [TIME] Añadir un footer sencillo con "Data provided by Marvel. © 2014 Marvel" por la atribución legal a Marvel
 · [DONE] Endpoint ("http(s)://gateway.marvel.com/")
-· [DUDA] Detalle page vs title/image/description 
+· [DUDA] Detalle page vs title/image/description
 · [DUDA] Contexto (?)
 · [DONE] c362a0b48487e82a9f79b23bdee091f7 public key
-· [ABORT] Migrar a la versión 6 (rrd)
+· [TIME] Migrar a la versión 6 (rrd)
 · [TIME] Limitar el número de carácteres en la descripción y ponerle el "Leer más"
 · [TIME] Faltan los comentarios, pero los componentes son intuitivos.

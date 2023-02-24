@@ -1,0 +1,15 @@
+.seriesGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    gap: 45px;
+    padding: 90px;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+@media (max-width: 560px){
+    .seriesGrid{
+        grid-template-columns: 100%;
+    }
+}
