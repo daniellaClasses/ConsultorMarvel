@@ -1,7 +1,14 @@
 .title {
-    text-align: center;
+    text-align: left;
+    margin-left: 1rem;
     font-family: 'Eater', cursive;
-    font-size: 3rem;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #7360eb 0px 0px 20px, #ff2d2d 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    color: #ffffff;
+    font-size: 2.5rem;
+    /* background: linear-gradient(87deg, rgba(222, 19, 19, 1) 0%, rgb(255, 255, 255) 50%, rgba(157, 154, 237, 1) 80%, rgba(33, 30, 176, 1) 100%); */
+    background: -webkit-linear-gradient(#e00707, rgba(255, 255, 255, 0.838), #1a2fca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #282fff7a;  */
+    /* text-shadow: () #7614d1 1px 1px 2px, #ed2929 0px 0px 4px,
+    #FFF 0px 0px 9px, #eb6060 0px 0px 12px, #ff2d2d 0px 0px 30px,
+    #682dff 0px 0px 40px, #4c2dff 0px 0px 25px, #fe3b3b 0px 0px 50px; */
 }

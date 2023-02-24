@@ -1,3 +1,11 @@
 · Revisar API y reconocer estructura
 · Cambiar los ejemplos con los correspondientes al ejercicio
-· Module vs sass (Tiempo)
+· Module vs sass (¿Tiempo?)
+· 404 ¿?
+· Búsqueda ejemplo (...)
+· Añadir "Data provided by Marvel. © 2014 Marvel" por la atribución legal a Marvel
+· Endpoint ("http(s)://gateway.marvel.com/")
+· Detalle page vs title/image/description DUDA
+· Contexto (?)
+· c362a0b48487e82a9f79b23bdee091f7 public key
+· Limitar el número de carácteres en la descripción y ponerle el "Leer más"
