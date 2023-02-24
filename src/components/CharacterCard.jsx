@@ -9,13 +9,13 @@ export function CharacterCard({ character }) {
                     width={250}
                     height={250}
                     className={styles.characterImage}
-                    src= {character.thumbnail.path + "." + character.thumbnail.extension}
+                    src={character.thumbnail.path + "." + character.thumbnail.extension}
                     alt={character.name} />
-                <div>
-                    <p>
+                <div className={styles.infoCont}>
+                    <p className={styles.infoTitle}>
                         {character.name}
                     </p>
-                    <p>
+                    <p className={styles.infoDes}>
                         <strong> Description: </strong> {character.description}
                     </p>
                 </div>

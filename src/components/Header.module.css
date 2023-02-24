@@ -1,30 +1,46 @@
-.headerCont{
+.headerCont {
     display: grid;
-    grid-template-columns: repeat(4, 250px);
-    justify-content: center;
-    gap: 40px;
-    padding: 40px;
-    align-items: center;
+    grid-template-columns: repeat(auto-fill, 45%);
+    gap: 100px;
+    padding: 25px;
 }
-
-
-
 
 .title {
     text-align: left;
     margin-left: 1rem;
     font-family: 'Eater', cursive;
-    font-size: 2.5rem;
-    /* background: linear-gradient(87deg, rgba(222, 19, 19, 1) 0%, rgb(255, 255, 255) 50%, rgba(157, 154, 237, 1) 80%, rgba(33, 30, 176, 1) 100%); */
+    font-size: 3.5rem;
     background: -webkit-linear-gradient(#e00707, rgba(255, 255, 255, 0.838), #1a2fca);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-a:active{
-    color: rgb(15, 152, 15)
+.navCont {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+    margin: 5px;
+    align-items: center;
+    flex-wrap: no-wrap;
 }
 
-/* a:hover{
-    color: purple;
-} */
+.comicLink {
+    background: -webkit-linear-gradient(#737373, #3f2a2a56);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.characterLink {
+    background: -webkit-linear-gradient(#ff0000, #333);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.seriesLink {
+    background: -webkit-linear-gradient(#2600ff, #333);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

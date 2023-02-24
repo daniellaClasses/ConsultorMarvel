@@ -29,9 +29,7 @@ export function ComicDetails() {
     return (
         <div className={styles.detailsContainer}>
             <img className={`${styles.col} ${styles.comicImage}`}
-                src={ comic ?
-                    comic.thumbnail.path + "." + comic.thumbnail.extension :
-                    "https://tse2.mm.bing.net/th?id=OIP.ewRndxkiKjqJ1JzpEG9p2QHaHa&pid=Api"}
+                src={comic.thumbnail.path + "." + comic.thumbnail.extension}
                 alt={comic.title} />
 
             <div className={`${styles.col} ${styles.comicDetails}`}>

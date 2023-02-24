@@ -2,8 +2,6 @@
     list-style: none;
     font-size: 1.5rem;
     text-align: center;
-
-
 }
 
 
@@ -26,4 +24,40 @@
         width: 80%;
         height: auto;
     }
+}
+
+.infoCont{
+    background-color: rgba(0, 0, 0, 0.32);
+    opacity: 1.5;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.infoTitle{
+    font-size: large;
+    font-weight: bolder;
+    word-break: break-all;
+    max-height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 20px;
+}
+.infoTitle:hover{
+    color: blueviolet;
+    opacity: 1.2;
+}
+
+
+.infoDes{
+    font-size: medium;
+    word-break: break-all;
+    max-height: 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.infoDes:hover{
+    opacity: 1.3;
+    color: rgba(181, 124, 255, 0.993);
 }
